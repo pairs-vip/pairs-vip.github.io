@@ -29,25 +29,13 @@
     
     
     <entry>
-      <title>Hexo-blog使用指南</title>
-      <link href="/2025/09/01/Hexo-blog%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/"/>
-      <url>/2025/09/01/Hexo-blog%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</url>
+      <title>Hello World</title>
+      <link href="/2025/09/14/Hexo-blog%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/"/>
+      <url>/2025/09/14/Hexo-blog%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</url>
       
-        <content type="html"><![CDATA[<h1 id="hexo-blog使用指南">Hexo-blog使用指南<a title="#hexo-blog使用指南" href="#hexo-blog使用指南"></a></h1><h4 id="1.命令">1.命令<a title="#1.命令" href="#1.命令"></a></h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo -g</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> tools </category>
-          
-      </categories>
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank">GitHub</a>.</p><h2 id="quick-start">Quick Start<a title="#quick-start" href="#quick-start"></a></h2><h3 id="create-a-new-post">Create a new post<a title="#create-a-new-post" href="#create-a-new-post"></a></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank">Writing</a></p><h3 id="run-server">Run server<a title="#run-server" href="#run-server"></a></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank">Server</a></p><h3 id="generate-static-files">Generate static files<a title="#generate-static-files" href="#generate-static-files"></a></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank">Generating</a></p><h3 id="deploy-to-remote-sites">Deploy to remote sites<a title="#deploy-to-remote-sites" href="#deploy-to-remote-sites"></a></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank">Deployment</a></p>]]></content>
       
       
-        <tags>
-            
-            <tag> hexo </tag>
-            
-        </tags>
       
     </entry>
     
@@ -184,8 +172,8 @@
     
     <entry>
       <title>test</title>
-      <link href="/2025/06/25/test/"/>
-      <url>/2025/06/25/test/</url>
+      <link href="/2025/06/25/Test-hexo/"/>
+      <url>/2025/06/25/Test-hexo/</url>
       
         <content type="html"><![CDATA[<ul><li><p>首先，我测试一段文字</p></li><li><p>然后，我将插入图片</p><p><img src="https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/static_resource/xxxxxx.jpg" alt="img" loading="lazy" class="φbp"></p><p><a href="https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/static_resource/xxxxxx.jpg" target="_blank">点击下载</a></p></li></ul><p><a href="https://cdn.jsdelivr.net/gh/pairs-vip/source-pairs-vip.github.io@main/static_resource/xxxxxx.jpg" download>下载附件</a ></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[下载 PDF](https://用户名.github.io/仓库名/downloads/example.pdf)</span><br></pre></td></tr></table></figure><p><a href="https://github.com/pairs-vip/blog-downloads/releases/download/v1.0.0/apache-maven-3.6.3.rar" target="_blank">下载 PDF</a></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[点击下载最新资源包(v1.0)](https://github.com/yourusername/yourrepo/releases/download/v1.0/yourfile.zip)</span><br></pre></td></tr></table></figure><p><a href="https://github.com/pairs-vip/blog-downloads/releases/download/v1.0.0/apache-maven-3.6.3.rar" target="_blank">点击下载最新资源包(v1.0)</a></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=&quot;https://github.com/yourusername/yourrepo/releases/download/v1.0/yourfile.zip&quot; download=&quot;资源包v1.0.zip&quot;&gt;</span><br><span class="line">  点击下载最新资源包(v1.0)</span><br><span class="line">&lt;/a&gt;</span><br></pre></td></tr></table></figure><a href="https://github.com/pairs-vip/blog-downloads/releases/download/v1.0.0/apache-maven-3.6.3.rar" download="资源包v1.0.zip">  点击下载最新资源包(v1.0)</a>]]></content>
       
@@ -202,19 +190,6 @@
             <tag> test </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2025/06/24/hello-world/"/>
-      <url>/2025/06/24/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank">GitHub</a>.</p><h2 id="quick-start">Quick Start<a title="#quick-start" href="#quick-start"></a></h2><h3 id="create-a-new-post">Create a new post<a title="#create-a-new-post" href="#create-a-new-post"></a></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank">Writing</a></p><h3 id="run-server">Run server<a title="#run-server" href="#run-server"></a></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank">Server</a></p><h3 id="generate-static-files">Generate static files<a title="#generate-static-files" href="#generate-static-files"></a></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank">Generating</a></p><h3 id="deploy-to-remote-sites">Deploy to remote sites<a title="#deploy-to-remote-sites" href="#deploy-to-remote-sites"></a></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank">Deployment</a></p>]]></content>
-      
-      
       
     </entry>
     
