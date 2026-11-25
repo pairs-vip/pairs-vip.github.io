@@ -1,14 +1,14 @@
 <!doctype html>
 <html lang="zh-Hans">
 <head><!-- hexo injector head_begin start -->
-<script src="/config.1ce4e9d48df250f19872.js"></script>
+<script src="/config.08645239ef6289a9f0c4.js"></script>
 <!-- hexo injector head_begin end -->
 <meta charset="utf-8">
 <title>接口耗时优化 - Pairs' Blog</title>
 <base href="/">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
 <link rel="canonical" href="https://pairs-vip.github.io/2025/10/21/%E6%8E%A5%E5%8F%A3%E8%80%97%E6%97%B6%E4%BC%98%E5%8C%96/">
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/x-icon" href="/favicon.png">
 
 <meta name="description" content="接口耗时优化 1.代码层面优化 第一种方式就是通过优化代码，将代码中查询数据库的操作减少，核心就是减少数据库连接次数；  遍历查询：这种一般先将 查询id处理为list，然后使用in进行一次查询，然后在内存中使用遍历查找对应的数据条目  第二种方式是降低for循环的时间复杂度，可能会遇到循环嵌套的数据处理，核心就是降低时间复杂度；  for循环嵌套优化：将每一个List放到Map中，选用合适的属性">
 <meta property="og:type" content="website">
